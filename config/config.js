@@ -7,17 +7,17 @@ module.exports = {
   "EXCHANGE_ADDRESS": process.env.EXCHANGE_ADDRESS || "",
   "JWT_SECRET": process.env.JWT_SECRET || "",
   "SENDGRID_KEY": process.env.SENDGRID_KEY || "",
-  "SUPPORT_EMAIL": process.env.SUPPORT_EMAIL || "r@proofofcrash.com",
-  "GAS_FEE": process.env.GAS_FEE || "88200000000000",
-  "RECAPTCHA_PRIV_KEY": process.env.RECAPTCHA_PRIV_KEY || "6LeUznAUAAAAAK1UBdY_gdDOdiJ33iIkmhQ-Gq3v",
-  "RECAPTCHA_SITE_KEY": process.env.RECAPTCHA_SITE_KEY || "6LeUznAUAAAAAL6paJG2t854oweezUPFCOqHfZaH",
+  "SUPPORT_EMAIL": process.env.SUPPORT_EMAIL || "",
+  "GAS_FEE": process.env.GAS_FEE || "",
+  "RECAPTCHA_PRIV_KEY": process.env.RECAPTCHA_PRIV_KEY || "",
+  "RECAPTCHA_SITE_KEY": process.env.RECAPTCHA_SITE_KEY || "",
   "PORT": process.env.PORT || "4000",
   "SIGNING_SECRET": process.env.SIGNING_SECRET || "testing",
-  "WALLET_API_DOMAIN": "http://52.91.191.2:3000",
+  "WALLET_API_DOMAIN": "",
   "MINIMUM_WITHDRAW": process.env.MINIMUM_WITHDRAW || (0.0001 * 1e3),
-  "AWS_SES_KEY": process.env.AWS_SES_KEY || "AKIAJXKIXMT4CUM26Q7A",
-  "AWS_SES_SECRET": process.env.AWS_SES_SECRET || "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",
-  "CONTACT_EMAIL": "rahul@cryptogamez.io"
+  "AWS_SES_KEY": process.env.AWS_SES_KEY || "",
+  "AWS_SES_SECRET": process.env.AWS_SES_SECRET || "",
+  "CONTACT_EMAIL": ""
   // "SITE_URL": process.env.SITE_URL || ""
 };
 
